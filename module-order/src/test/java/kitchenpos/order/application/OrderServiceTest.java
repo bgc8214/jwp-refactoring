@@ -1,4 +1,4 @@
-package kitchenpos.application;
+package kitchenpos.order.application;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
@@ -6,7 +6,6 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import kitchenpos.order.application.OrderService;
 import kitchenpos.order.domain.OrderStatus;
 import kitchenpos.order.dto.OrderLineItemRequest;
 import kitchenpos.order.dto.OrderRequest;

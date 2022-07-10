@@ -1,4 +1,4 @@
-package kitchenpos.application;
+package kitchenpos.product.application;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
@@ -7,7 +7,6 @@ import static org.mockito.Mockito.when;
 
 import java.util.Arrays;
 import java.util.List;
-import kitchenpos.product.application.ProductService;
 import kitchenpos.product.domain.Product;
 import kitchenpos.product.dto.ProductRequest;
 import kitchenpos.product.dto.ProductResponse;

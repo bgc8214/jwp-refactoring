@@ -1,5 +1,3 @@
-package kitchenpos.application;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.List;

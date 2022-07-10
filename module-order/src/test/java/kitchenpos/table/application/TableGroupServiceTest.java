@@ -1,4 +1,4 @@
-package kitchenpos.application;
+package kitchenpos.table.application;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
@@ -10,7 +10,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import kitchenpos.order.validator.TableValidatorImpl;
-import kitchenpos.table.application.TableGroupService;
 import kitchenpos.table.domain.OrderTable;
 import kitchenpos.table.domain.TableGroup;
 import kitchenpos.table.dto.TableGroupRequest;
